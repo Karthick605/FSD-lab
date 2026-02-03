@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone Experience</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+body { scroll-behavior: smooth; }
+.navbar { background: #000; }
+.navbar-brand, .nav-link { color: #fff !important; }
+.banner-caption { background: rgba(0,0,0,0.6); padding: 20px; border-radius: 10px; }
+.section-title { font-weight: bold; margin-bottom: 40px; }
+.card:hover { transform: translateY(-5px); transition: 0.3s; }
+footer { background:#000; color:white; }
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top shadow">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">iPhone Showroom</a>
+
+<button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-end" id="navMenu">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#models">Models</a></li>
+<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- Banner -->
+<section id="home">
+<div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+
+<div class="carousel-item active">
+<img src="https://picsum.photos/1600/600?random=90" class="d-block w-100">
+<div class="carousel-caption banner-caption">
+<h1>Meet the New iPhone</h1>
+<p>Premium Experience & Innovation</p>
+</div>
+</div>
+
+<div class="carousel-item">
+<img src="https://picsum.photos/1600/600?random=91" class="d-block w-100">
+<div class="carousel-caption banner-caption">
+<h1>Innovation in Every Detail</h1>
+<p>Experience Performance Like Never Before</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Models -->
+<section id="models" class="py-5 bg-light">
+<div class="container">
+<h2 class="section-title text-center">iPhone Models</h2>
+
+<div class="row g-4">
+<div class="col-md-4">
+<div class="card shadow-sm text-center">
+<img src="https://picsum.photos/400/250?random=92">
+<div class="card-body">
+<h5>iPhone Pro</h5>
+<p>Top performance with pro camera.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm text-center">
+<img src="https://picsum.photos/400/250?random=93">
+<div class="card-body">
+<h5>iPhone Plus</h5>
+<p>Bigger display and battery power.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm text-center">
+<img src="https://picsum.photos/400/250?random=94">
+<div class="card-body">
+<h5>iPhone Standard</h5>
+<p>Balanced performance and value.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Features -->
+<section id="features" class="py-5">
+<div class="container">
+<h2 class="section-title text-center">Key Features</h2>
+
+<div class="row g-4 text-center">
+<div class="col-md-4">
+<i class="bi bi-camera fs-1"></i>
+<h5 class="mt-3">Advanced Camera</h5>
+<p>Professional photography features.</p>
+</div>
+
+<div class="col-md-4">
+<i class="bi bi-battery-charging fs-1"></i>
+<h5 class="mt-3">All-Day Battery</h5>
+<p>Long-lasting battery performance.</p>
+</div>
+
+<div class="col-md-4">
+<i class="bi bi-cpu fs-1"></i>
+<h5 class="mt-3">Fast Processor</h5>
+<p>Smooth and high-speed performance.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 bg-light text-center">
+<div class="container">
+<h2 class="section-title">About Our Showroom</h2>
+<p class="lead">
+Our iPhone showroom provides customers with the latest Apple devices,
+expert support, and premium shopping experience. We ensure customers
+get authentic products and professional assistance.
+</p>
+</div>
+</section>
+
+<!-- Team Section Added -->
+<section id="team" class="py-5 text-center">
+<div class="container">
+<h2 class="section-title">Leadership Team</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card shadow-sm">
+<img src="https://i.pravatar.cc/300?img=15">
+<div class="card-body">
+<h5>Karthick</h5>
+<p>Founder</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm">
+<img src="https://i.pravatar.cc/300?img=16">
+<div class="card-body">
+<h5>Chief Executive Officer</h5>
+<p>Business Operations Head</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card shadow-sm">
+<img src="https://i.pravatar.cc/300?img=17">
+<div class="card-body">
+<h5>Showroom Manager</h5>
+<p>Customer & Sales Management</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5 bg-dark text-white">
+<div class="container text-center">
+<h2 class="section-title">Contact & Support</h2>
+
+<form class="mx-auto" style="max-width:500px;">
+<input class="form-control mb-3" placeholder="Name" required>
+<input type="email" class="form-control mb-3" placeholder="Email" required>
+<textarea class="form-control mb-3" rows="4" placeholder="Message" required></textarea>
+<button class="btn btn-light">Submit</button>
+</form>
+
+</div>
+</section>
+
+<footer class="py-3 text-center">
+© 2026 iPhone Showroom Website
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
